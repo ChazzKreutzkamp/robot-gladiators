@@ -96,12 +96,12 @@ var startGame = function() {
 };
 
 var endGame = function() {
-  window.alert("The game has now ended. Let's see hou you did!");
+  window.alert("The game has now ended. Let's see how you did!");
   if (playerHealth > 0){
   window.alert("Great job, you've survived the game! You now have a score of " + playerMoney + ".");
 }
 else {
-  window.alert("You've lost your rbot in battle.");
+  window.alert("You've lost your robot in battle.");
 }
 var playAgainConfirm = window.confirm("Would you like to play again?");
 if (playAgainConfirm) {
